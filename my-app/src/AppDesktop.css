@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+body {
+  background-color: blueviolet;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+}
+
+@media screen and (min-width: 921px) {
+  .card {
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(53, 18, 122, 0.498) 0px 50px 50px -20px;
+    border-radius: 23px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 920px;
+    height: 509px;
+    /* overflow: hidden; */
+  }
+  
+  .mobile-illustration {
+    display: none;
+  }
+
+  .mobile-pattern {
+    display: none;
+  }
+
+  .illustration-div {
+    /* overflow: hidden; */
+  }
+
+  .desktop-illustration {
+    background-image: url('./images/illustration-woman-online-desktop.svg');
+    width: 472px;
+    background-repeat: no-repeat;
+    background-position: 156% 30%;
+    height: 359px;
+    position: relative;
+    left: -77px;
+    top: 100px;
+  }
+
+  .box {
+    position: relative;
+    top: -125px;
+    left: -93px;
+  }
+
+/* 
+  .desktop-pattern {
+    background-image: url('./images/bg-pattern-desktop.svg'); 
+    width: 964px;
+    height: 944px;
+    position: relative;
+    top: -100px;
+    left: -100px;
+  } */
+}
+
