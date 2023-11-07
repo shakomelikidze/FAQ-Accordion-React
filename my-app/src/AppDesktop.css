@@ -14,6 +14,28 @@ body {
   height:100vh;
 }
 
+.accordion-title {
+  color: #4B4C5F;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.accordion-content {
+  color: #787887;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; 
+}
+
+h1 {
+  color: #1E1F36;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+
 @media screen and (min-width: 921px) {
   .card {
     background: rgb(255, 255, 255);
@@ -33,10 +55,6 @@ body {
 
   .mobile-pattern {
     display: none;
-  }
-
-  .illustration-div {
-    /* overflow: hidden; */
   }
 
   .desktop-illustration {
