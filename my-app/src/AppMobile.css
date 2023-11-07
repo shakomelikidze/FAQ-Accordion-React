@@ -40,21 +40,18 @@
   }
 
   .mobile-illustration {
-    width: 320px;
+    width: 240px;
   }
 
   .mobile-pattern {
-    width: 320px;
-    position: relative;
-    top: -100px;
+    width: 240px;
+    margin-top: -80px;
   }
 
   .illustration-div {
     display: flex;
     flex-direction: column;
-    position: relative;
-    top: -145px;
-    margin-bottom: -225px;
+    margin-top: -110px;
   }
 
   h1 {
@@ -63,5 +60,32 @@
     line-height: 40px;
     color: #1E1F36;
     margin-bottom: 20px;
+    margin-left: 100px;
   }
+  
+  .accordion-title {
+    margin-left: -10px;
+  }
+
+  .accordion-content {
+    width: 279px;
+    margin-top: 13px;
+    margin-left: 10px;
+  }
+
+  .line {
+    width: 280px;
+    height: 1px;
+    background: #E8E8EA;
+    margin-top: 18px;
+    margin-bottom: 18px;
+  }
+
+  .arrow {
+    width: 12px;
+    height: 10px;
+    position: relative;
+    left: 275px; 
+  }
+  
 }

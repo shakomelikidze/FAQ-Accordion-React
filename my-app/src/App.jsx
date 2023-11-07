@@ -8,20 +8,13 @@ import Accordion from './components/Accordion'
 import { useState } from 'react'
 function App() {
   const [activeAccordionNumber, setActiveAccordionNumber] = useState(null)
-  const [isClicked, setIsClicked] = useState(false)
   const handleClick = (accordionNumber) => {
     if (activeAccordionNumber === accordionNumber) {
       setActiveAccordionNumber(null)
     } else {
       setActiveAccordionNumber(accordionNumber)
     }
-    if (activeAccordionNumber === accordionNumber) {
-      setIsClicked(!isClicked)
-    }
-  }
-  const pStyle = {
-    color: isClicked ? '#1E1F36' : '#4B4C5F',
-    cursor: 'pointer'
+    
   }
 
   return (

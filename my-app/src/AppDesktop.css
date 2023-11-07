@@ -35,6 +35,15 @@ h1 {
   font-weight: 700;
 }
 
+.rotate {
+  transform: rotate(180deg);
+  transition: transform 0.3s;
+}
+
+.rotate-two {
+  transform: rotate(0deg);
+  transition-duration: 0.5s;
+}
 
 @media screen and (min-width: 921px) {
   .card {
@@ -46,7 +55,6 @@ h1 {
     flex-direction: row;
     width: 920px;
     height: 509px;
-    /* overflow: hidden; */
   }
   
   .mobile-illustration {
@@ -74,14 +82,39 @@ h1 {
     left: -93px;
   }
 
-/* 
-  .desktop-pattern {
-    background-image: url('./images/bg-pattern-desktop.svg'); 
-    width: 964px;
-    height: 944px;
+  .faq-div {
+    margin-top: 100px;
+    height: 100%;
+    width: 325px;
+  }
+
+  h1 {
+    margin-bottom: 43px;
+  }
+
+  .accordion-title {
+    margin-left: -10px;
+  }
+
+  .accordion-content {
+    margin-top: 13px;
+    margin-left: 10px;
+  }
+
+  .line {
+    width: 350px;
+    height: 1px;
+    background: #E8E8EA;
+    margin-top: 18px;
+    margin-bottom: 18px;
+  }
+
+  .arrow {
+    width: 12px;
+    height: 10px;
     position: relative;
-    top: -100px;
-    left: -100px;
-  } */
+    left: 330px; 
+  }
+
 }
 
